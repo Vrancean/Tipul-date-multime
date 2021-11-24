@@ -1,0 +1,8 @@
+a=set(input('Dati caracterele din primul sir:'))
+b=set(input('Dati caracterele din al doilea sir:'))
+c=a.intersection(b)
+d=a.union(b)
+e=a.difference(b)
+print('Caracterele care se intalnesc cel putin in unul dintre siruri:',sorted(c))
+print('Caracterele care apar in ambele siruri:',sorted(d))
+print('Caracterle care apar in primul sir si nu apar in al doilea:',sorted(e))
